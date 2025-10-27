@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+		iOS App Entitlements
+
+		IMPORTANT: This file overrides the default NativeScript entitlements template.
+		Do NOT include macOS-specific entitlements like:
+		- com.apple.security.app-sandbox (macOS only!)
+		- com.apple.security.network.client (macOS only!)
+
+		These will cause App Store rejection for iOS apps.
+	-->
+
+	<!-- Allow JIT compilation for JavaScript engine (required for NativeScript) -->
+	<key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,123 @@
+/* ============================================
+   LIGHT THEME - Semantic Color Scheme
+   Default theme with light background
+   ============================================ */
+
+.ns-light {
+    /* ==================== BASE COLORS ==================== */
+    /* Backgrounds and surfaces */
+    --color-base-100: #fafafa;
+    /* Main background - 更温暖的背景色调 */
+    --color-base-200: #f4f4f5;
+    /* Secondary background - 改进卡片背景对比度 */
+    --color-base-300: #e4e4e7;
+    /* Tertiary background / borders - 增强边界可见性 */
+    --color-base-content: #18181b;
+    /* Text on base colors - 更深的文本色提高对比度 */
+
+    /* ==================== BRAND COLORS ==================== */
+    /* Primary - Main brand color */
+    --color-primary: #3b82f6;
+    /* Blue 500 */
+    --color-primary-focus: #2563eb;
+    /* Blue 600 - hover/focus state */
+    --color-primary-content: #ffffff;
+    /* Text on primary */
+
+    /* Secondary - Supporting brand color */
+    --color-secondary: #8b5cf6;
+    /* Violet 500 */
+    --color-secondary-focus: #7c3aed;
+    /* Violet 600 */
+    --color-secondary-content: #ffffff;
+
+    /* Accent - Highlight color */
+    --color-accent: #06b6d4;
+    /* Cyan 500 */
+    --color-accent-focus: #0891b2;
+    /* Cyan 600 */
+    --color-accent-content: #ffffff;
+
+    /* Neutral - Neutral elements */
+    --color-neutral: #3d4451;
+    /* Gray 700 */
+    --color-neutral-focus: #2a2e37;
+    /* Gray 800 */
+    --color-neutral-content: #ffffff;
+
+    /* ==================== STATE COLORS ==================== */
+    /* Success state */
+    --color-success: #10b981;
+    /* Green 500 */
+    --color-success-focus: #059669;
+    /* Green 600 */
+    --color-success-content: #ffffff;
+
+    /* Info state */
+    --color-info: #3b82f6;
+    /* Blue 500 */
+    --color-info-focus: #2563eb;
+    /* Blue 600 */
+    --color-info-content: #ffffff;
+
+    /* Warning state */
+    --color-warning: #f59e0b;
+    /* Amber 500 */
+    --color-warning-focus: #d97706;
+    /* Amber 600 */
+    --color-warning-content: #ffffff;
+
+    /* Error/Danger state */
+    --color-error: #ef4444;
+    /* Red 500 */
+    --color-error-focus: #dc2626;
+    /* Red 600 */
+    --color-error-content: #ffffff;
+
+    /* ==================== CUSTOM COLORS ==================== */
+    /* Crimson - Custom brand color */
+    --color-crimson: #dc143c;
+    /* Crimson */
+    --color-crimson-focus: #b8112f;
+    /* Darker crimson */
+    --color-crimson-content: #ffffff;
+
+    /* ==================== UI ELEMENT COLORS ==================== */
+    --color-border: #e4e4e7;
+    /* Border color - 更明显的边框 */
+    --color-input: #f4f4f5;
+    /* Input background - 匹配新的base-200 */
+    --color-focus-ring: #3b82f6;
+    /* Focus ring color */
+    --color-disabled: #a1a1aa;
+    /* Disabled state - 更协调的灰色 */
+    --color-placeholder: #71717a;
+    /* Placeholder text - 提高对比度 */
+
+    /* ==================== TEXT HIERARCHY ==================== */
+    --color-text-primary: #18181b;
+    /* Primary text - 更深的文本色 */
+    --color-text-secondary: #3f3f46;
+    /* Secondary text - 提高对比度 */
+    --color-text-tertiary: #71717a;
+    /* Tertiary text - 提高可读性 */
+    --color-text-disabled: #a1a1aa;
+    /* Disabled text - 更协调的灰色 */
+
+    /* ==================== RGB COLOR VALUES ==================== */
+    /* RGB格式用于创建带透明度的颜色 */
+    --primary-rgb: 59, 130, 246;
+    /* Primary颜色的RGB值 */
+    --secondary-rgb: 139, 92, 246;
+    /* Secondary颜色的RGB值 */
+    --accent-rgb: 6, 182, 212;
+    /* Accent颜色的RGB值 */
+    --success-rgb: 16, 185, 129;
+    /* Success颜色的RGB值 */
+    --error-rgb: 239, 68, 68;
+    /* Error颜色的RGB值 */
+    --warning-rgb: 245, 158, 11;
+    /* Warning颜色的RGB值 */
+    --base-200-rgb: 244, 244, 245;
+    /* Base-200背景色的RGB值 - 更新匹配新的base-200色值 */
+}

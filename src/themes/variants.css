@@ -1,0 +1,11 @@
+/* ============================================
+   Platform-Specific Variants
+   Custom variants for NativeScript platforms
+   ============================================ */
+
+@custom-variant android (.ns-android &);
+@custom-variant ios (.ns-ios &);
+@custom-variant dark (.ns-dark &);
+@custom-variant light (.ns-light &);
+@custom-variant portrait (.ns-portrait &);
+@custom-variant landscape (.ns-landscape &);

@@ -1,0 +1,57 @@
+# NativeScript
+platforms/
+hooks/
+*.js.map
+*.log
+
+# NativeScript builds
+*.ipa
+*.apk
+*.aab
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Android
+*.keystore
+*.jks
+local.properties
+
+# iOS
+*.mobileprovision
+*.p12
+*.cer
+
+# Package manager
+*.tgz
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Bun
+bun.lockb

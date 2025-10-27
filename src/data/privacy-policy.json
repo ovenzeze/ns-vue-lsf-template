@@ -1,0 +1,141 @@
+{
+    "title": "ns-vue-starter Project - Privacy Policy",
+    "lastUpdated": "October 20, 2025",
+    "intro": "The Project Maintainer recognizes the importance of privacy, especially considering the stringent requirements of the North American market. This Privacy Policy is intended to clarify that the **ns-vue-starter Sample Application** (referring to the final application built from this project's code) **DOES NOT** collect, store, or transmit any personal information.",
+    "sections": [
+        {
+            "title": "1. Applicability and Disclaimer",
+            "items": [
+                {
+                    "number": "1.1",
+                    "heading": "Applicability.",
+                    "content": "This policy applies to the **ns-vue-starter project code itself** and any **sample application** compiled using this code."
+                },
+                {
+                    "number": "1.2",
+                    "heading": "Disclaimer.",
+                    "content": "This policy is intended only as a **privacy template reference** for the sample project. Any actual application built on this code, especially those intended for consumers, **must** develop its own **independent and accurate Privacy Policy** based on its specific business needs, data collection practices, and server configurations, ensuring compliance with relevant North American laws."
+                }
+            ]
+        },
+        {
+            "title": "2. We Do Not Collect Personal Information",
+            "intro": "**The ns-vue-starter sample application is designed to demonstrate component functionality and does not perform any background data collection operations.**",
+            "items": [
+                {
+                    "number": "2.1",
+                    "heading": "No Collection of Personal Information (PII).",
+                    "content": "The sample application **DOES NOT collect any Personally Identifiable Information (PII) or Sensitive Personal Information**, including, but not limited to:",
+                    "list": [
+                        "Names, phone numbers, email addresses, IP addresses, device IDs, or precise geolocation.",
+                        "User registration or login credentials."
+                    ]
+                },
+                {
+                    "number": "2.2",
+                    "heading": "No Network Transmission or Tracking.",
+                    "list": [
+                        "**No Network Requests:** The application does not actively initiate any data uploads to external servers.",
+                        "**No Sale or Sharing:** Since we do not collect any data, there is **no \"sale\" or \"sharing\"** of your personal information with third parties under US privacy laws (e.g., CCPA/CPRA).",
+                        "**No Third-Party Tracking:** No third-party SDKs for tracking or behavioral analysis are integrated."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "3. Locally Stored Data",
+            "intro": "The application only stores non-personal information locally on your device to maintain application state and user experience.",
+            "items": [
+                {
+                    "number": "3.1",
+                    "heading": "Types of Local Data.",
+                    "content": "Data stored locally on your device includes:",
+                    "list": [
+                        "**Theme Settings:** User preferences for dark/light mode.",
+                        "**Notification Preferences:** The local state of notification toggles within the sample (for demonstration purposes only)."
+                    ]
+                },
+                {
+                    "number": "3.2",
+                    "heading": "Storage Location.",
+                    "content": "**All local data is stored exclusively on your device** (e.g., in local storage files) and is **NOT transmitted** to any external server."
+                }
+            ]
+        },
+        {
+            "title": "4. Device Permissions",
+            "items": [
+                {
+                    "number": "4.1",
+                    "heading": "Required Permissions.",
+                    "content": "The basic permissions this sample application may require are:",
+                    "list": [
+                        "**Storage Access:** Used to save application configurations (like theme settings) on the device."
+                    ]
+                },
+                {
+                    "number": "4.2",
+                    "heading": "Optional Permissions (If Applicable).",
+                    "content": "If buttons for external resources (like GitHub) are included:",
+                    "list": [
+                        "**Network Access:** Used solely to open the browser to external links."
+                    ]
+                },
+                {
+                    "number": "4.3",
+                    "heading": "Sensitive Permissions.",
+                    "content": "The application **will not** access or request sensitive permissions such as access to your contacts, camera, microphone, or location."
+                }
+            ]
+        },
+        {
+            "title": "5. Third-Party Services and Links",
+            "items": [
+                {
+                    "number": "5.1",
+                    "heading": "External Links.",
+                    "content": "The application may contain external links to the **GitHub repository** or official documentation. Clicking these links will open your device's browser, and your activity will then be governed by the respective third-party website's privacy policy."
+                },
+                {
+                    "number": "5.2",
+                    "heading": "NativeScript Framework.",
+                    "content": "The NativeScript framework itself, depending on configuration, may automatically collect **crash logs or application performance data**. Please refer to the official NativeScript documentation or the privacy policy of any crash reporting service you configure for details."
+                }
+            ]
+        },
+        {
+            "title": "6. Children's Privacy (COPPA)",
+            "content": "This project is an open-source component library sample intended for developers and is **NOT directed at** or intended to be used by children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have unintentionally collected PII from a child under 13, we will take reasonable steps to delete that information promptly."
+        },
+        {
+            "title": "7. User Rights (US Privacy Rights)",
+            "intro": "Although this project does not collect personal information, we confirm that under applicable US state laws (such as CCPA/CPRA), consumers may possess certain rights regarding their data, including:",
+            "list": [
+                "**Right to Know (Access):** The right to access the personal information we hold about you.",
+                "**Right to Delete:** The right to request the deletion of personal information we hold about you.",
+                "**Right to Opt-Out:** The right to opt-out of the \"sale\" or \"sharing\" of personal information."
+            ],
+            "note": "**Exercising Rights:** Since the application collects no personal information and all data is stored locally, you may exercise your deletion rights by simply **uninstalling the application**. For any other inquiries regarding your rights, please use the contact information below."
+        },
+        {
+            "title": "8. Policy Updates and Contact Information",
+            "items": [
+                {
+                    "number": "8.1",
+                    "heading": "Policy Updates.",
+                    "content": "This Privacy Policy may be modified as the project code or functionality changes. We encourage you to review this policy periodically. We will notify users of any **material changes** to this policy by updating the CHANGELOG in the GitHub repository and revising the \"Last Updated\" date at the top of the policy. Your continued use of the application after any such changes constitutes your acceptance of the new Privacy Policy."
+                },
+                {
+                    "number": "8.2",
+                    "heading": "Contact Information.",
+                    "content": "If you have any questions, suggestions, or concerns regarding this project or the Privacy Policy, please contact us via the following methods:",
+                    "list": [
+                        "**GitHub Issues:** https://github.com/ovenzeze/ns-vue-starter/issues",
+                        "**Maintainer Email:** dev@deth.us",
+                        "**Repository Maintainer:** ovenzeze"
+                    ]
+                }
+            ]
+        }
+    ]
+}

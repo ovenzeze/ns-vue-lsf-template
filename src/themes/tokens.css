@@ -1,0 +1,114 @@
+/* ============================================
+   Design Tokens - Core Design System Values
+   These are platform-agnostic design decisions
+   ============================================ */
+
+@theme {
+    /* ==================== TYPOGRAPHY ==================== */
+    /* Font Families */
+    --font-family-sans: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-family-serif: 'CrimsonText-Regular', 'Crimson Text', Georgia, serif;
+    --font-family-mono: 'SF Mono', 'Monaco', 'Cascadia Code', 'Courier New', monospace;
+    --font-family-display: 'CrimsonText-Bold', 'Crimson Text', Georgia, serif;
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Font Sizes - Mobile-first scale */
+    --font-size-xs: 11px;
+    --font-size-sm: 13px;
+    --font-size-base: 15px;
+    --font-size-lg: 17px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 30px;
+    --font-size-4xl: 36px;
+
+    /* Line Heights */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+
+    /* ==================== SPACING SCALE ==================== */
+    /* 4px base unit for consistency */
+    --spacing-0: 0;
+    --spacing-1: 4px;
+    --spacing-2: 8px;
+    --spacing-3: 12px;
+    --spacing-4: 16px;
+    --spacing-5: 20px;
+    --spacing-6: 24px;
+    --spacing-8: 32px;
+    --spacing-10: 40px;
+    --spacing-12: 48px;
+    --spacing-16: 64px;
+    --spacing-20: 80px;
+
+    /* ==================== BORDER RADIUS ==================== */
+    /* Semantic naming for different UI elements - iOS style with larger radius */
+    --radius-none: 0;
+    --radius-sm: 6px;
+    --radius-base: 10px;
+    --radius-md: 14px;
+    --radius-lg: 18px;
+    --radius-xl: 24px;
+    --radius-2xl: 30px;
+    --radius-full: 9999px;
+
+    /* Component-specific radius - iOS style (larger, more friendly) */
+    --radius-btn: 12px;
+    --radius-input: 10px;
+    --radius-card: 16px;
+    --radius-badge: 9999px;
+    --radius-avatar: 9999px;
+
+    /* ==================== BORDERS ==================== */
+    --border-width-thin: 1px;
+    --border-width-base: 1px;
+    --border-width-thick: 2px;
+
+    /* ==================== ELEVATION / DEPTH ==================== */
+    /* NativeScript uses androidElevation for shadows on Android */
+    /* iOS uses shadow properties */
+    --elevation-0: 0;
+    --elevation-1: 2;
+    --elevation-2: 4;
+    --elevation-3: 8;
+    --elevation-4: 12;
+    --elevation-5: 16;
+
+    /* ==================== SHADOW VALUES ==================== */
+    /* Box shadow values for iOS */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    /* ==================== OPACITY LEVELS ==================== */
+    --opacity-disabled: 0.4;
+    --opacity-hover: 0.8;
+    --opacity-pressed: 0.6;
+    --opacity-subtle: 0.12;
+
+    /* ==================== ANIMATION / TIMING ==================== */
+    --duration-fast: 150;
+    --duration-base: 200;
+    --duration-slow: 300;
+
+    /* ==================== CARD COMPONENT ==================== */
+    /* Card-specific design tokens */
+    --card-padding: 16;
+    /* Card内边距 */
+    --card-margin: 12;
+    /* Card外边距 */
+    --card-radius: 12;
+    /* Card圆角，使用--radius-md的值 */
+    --card-border-width: 1;
+    /* Card边框宽度 */
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Privacy Tracking -->
+	<key>NSPrivacyTracking</key>
+	<false/>
+
+	<!-- Privacy Tracking Domains -->
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+
+	<!-- Privacy Collected Data Types -->
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+
+	<!-- Privacy Accessed API Types -->
+	<!-- Declare any required reason APIs used by your app -->
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<!-- Example: If you use UserDefaults API -->
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<!-- CA92.1: Access user defaults from app or app extension -->
+				<string>CA92.1</string>
+			</array>
+		</dict>
+
+		<!-- Example: If you use file timestamp APIs -->
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<!-- C617.1: Access timestamps of files inside the app container -->
+				<string>C617.1</string>
+			</array>
+		</dict>
+
+		<!-- Example: If you use system boot time API -->
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategorySystemBootTime</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<!-- 35F9.1: Measure time -->
+				<string>35F9.1</string>
+			</array>
+		</dict>
+
+		<!-- Example: If you use disk space API -->
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryDiskSpace</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<!-- E174.1: Display disk space to user or check if sufficient space exists -->
+				<string>E174.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

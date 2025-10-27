@@ -1,0 +1,146 @@
+{
+    "title": "ns-vue-starter Project - Terms of Service",
+    "lastUpdated": "October 20, 2025",
+    "sections": [
+        {
+            "title": "1. Welcome and Project Nature",
+            "items": [
+                {
+                    "number": "1.1",
+                    "heading": "Welcome to the ns-vue-starter Project.",
+                    "content": "This project is an **open-source component library example** based on NativeScript-Vue technology, designed to provide developers with code samples and components for learning, reference, and prototyping."
+                },
+                {
+                    "number": "1.2",
+                    "heading": "Non-Commercial and Unofficial Nature.",
+                    "content": "This project is **non-commercial** and maintained by an individual or community. It is **not** an official project of NativeScript or Vue."
+                },
+                {
+                    "number": "1.3",
+                    "heading": "License Agreement.",
+                    "content": "The source code for this project is released under the **MIT License**. Your use of this project signifies your agreement to both these Terms of Service and the terms of the MIT License."
+                }
+            ]
+        },
+        {
+            "title": "2. Scope of Use and Rights",
+            "items": [
+                {
+                    "number": "2.1",
+                    "heading": "Freedom of Use.",
+                    "content": "Consistent with the MIT License, you are free to use, copy, modify, merge, publish, distribute, and sublicense the source code of this project, and you may use it in commercial applications, provided you retain the copyright and license notices."
+                },
+                {
+                    "number": "2.2",
+                    "heading": "Code Purpose.",
+                    "content": "This project is primarily recommended for learning NativeScript-Vue development techniques, component construction, and as a starting point for prototyping."
+                },
+                {
+                    "number": "2.3",
+                    "heading": "User Responsibility.",
+                    "content": "You bear full responsibility for your use of this project's code or any application built upon it. You must ensure your use complies with all applicable laws and regulations, particularly for applications targeting the North American market."
+                }
+            ]
+        },
+        {
+            "title": "3. Disclaimer (\"AS IS\" Provision)",
+            "items": [
+                {
+                    "number": "3.1",
+                    "heading": "\"AS IS\" Basis.",
+                    "content": "This project is provided \"AS IS,\" **without warranty of any kind, express or implied**, including but not limited to the warranties of merchantability, fitness for a particular purpose, non-infringement, or freedom from defects."
+                },
+                {
+                    "number": "3.2",
+                    "heading": "No Guarantee.",
+                    "content": "The **Maintainer makes no guarantees** that any function or component of this project will be complete, error-free, continuous, or suitable for your specific needs."
+                },
+                {
+                    "number": "3.3",
+                    "heading": "Assumption of Risk.",
+                    "content": "You **assume all risk** associated with the use of this project's code."
+                },
+                {
+                    "number": "3.4",
+                    "heading": "Limitation of Liability.",
+                    "content": "In no event shall the Maintainer be liable for any direct, indirect, incidental, special, punitive, or consequential damages (including, but not limited to, loss of data, loss of profits, or business interruption) arising out of the use or inability to use the project's code, even if advised of the possibility of such damages."
+                },
+                {
+                    "number": "3.5",
+                    "heading": "Third-Party Dependencies.",
+                    "content": "This project relies on **third-party libraries and frameworks** like NativeScript and Vue. These dependencies are maintained by their respective developers, and their performance, licensing, and security are independent of this project. The Maintainer accepts no liability for issues arising from the use of these third-party dependencies."
+                }
+            ]
+        },
+        {
+            "title": "4. Intellectual Property",
+            "items": [
+                {
+                    "number": "4.1",
+                    "heading": "Project Source Code.",
+                    "content": "The intellectual property rights of the project's source code follow the **MIT License**."
+                },
+                {
+                    "number": "4.2",
+                    "heading": "Third-Party Assets.",
+                    "content": "This project may use third-party icons or assets, such as FontAwesome. The intellectual property rights for these assets belong to their respective owners and are governed by their corresponding licenses."
+                },
+                {
+                    "number": "4.3",
+                    "heading": "User Contributions.",
+                    "content": "Any contributions you submit to this project (e.g., Pull Requests) are automatically licensed to the project under the MIT License, unless you explicitly state otherwise."
+                }
+            ]
+        },
+        {
+            "title": "5. Content Accuracy and Timeliness",
+            "items": [
+                {
+                    "number": "5.1",
+                    "heading": "Demo Data.",
+                    "content": "Any data, text, or images included in this project are for **component demonstration purposes only**."
+                },
+                {
+                    "number": "5.2",
+                    "heading": "Technical Documentation.",
+                    "content": "The technical documentation, comments, or examples within the project may **not be up-to-date** with the latest technical specifications. It is recommended that you always refer to the official NativeScript and Vue documentation for the most accurate information."
+                }
+            ]
+        },
+        {
+            "title": "6. Updates and Maintenance",
+            "items": [
+                {
+                    "number": "6.1",
+                    "heading": "Project Changes.",
+                    "content": "The Maintainer reserves the right to update, modify, cease maintenance, or change the license of this project at any time."
+                },
+                {
+                    "number": "6.2",
+                    "heading": "No Guarantee of Backward Compatibility.",
+                    "content": "Updates may alter some components or functions, and the Maintainer **does not guarantee** backward compatibility between new and old versions."
+                },
+                {
+                    "number": "6.3",
+                    "heading": "Pre-Use Testing.",
+                    "content": "Users are strongly advised to **conduct sufficient self-testing and verification** before using the project's code in critical or production environments."
+                }
+            ]
+        },
+        {
+            "title": "7. Governing Law and Jurisdiction",
+            "items": [
+                {
+                    "number": "7.1",
+                    "heading": "Governing Law.",
+                    "content": "These Terms shall be governed by and construed in accordance with the laws of the **State of California, USA**, without regard to its conflict of law provisions."
+                },
+                {
+                    "number": "7.2",
+                    "heading": "Jurisdiction.",
+                    "content": "Any dispute arising from or related to these Terms shall be subject to the exclusive jurisdiction of the courts located in **Los Angeles, California**."
+                }
+            ]
+        }
+    ]
+}

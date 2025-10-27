@@ -1,0 +1,972 @@
+/* ============================================
+   shadcn/ui Style Utility Classes
+   NativeScript compatible utility classes following shadcn/ui naming conventions
+   ============================================ */
+
+/* ==================== TYPOGRAPHY ==================== */
+/* Font Families */
+.font-serif,
+.font-crimson {
+    font-family: var(--font-family-serif);
+}
+
+.font-sans {
+    font-family: var(--font-family-sans);
+}
+
+.font-mono {
+    font-family: var(--font-family-mono);
+}
+
+.font-display {
+    font-family: var(--font-family-display);
+}
+
+/* Font Sizes */
+.text-xs {
+    font-size: var(--font-size-xs);
+}
+
+.text-sm {
+    font-size: var(--font-size-sm);
+}
+
+.text-base {
+    font-size: var(--font-size-base);
+}
+
+.text-lg {
+    font-size: var(--font-size-lg);
+}
+
+.text-xl {
+    font-size: var(--font-size-xl);
+}
+
+.text-2xl {
+    font-size: var(--font-size-2xl);
+}
+
+.text-3xl {
+    font-size: var(--font-size-3xl);
+}
+
+.text-4xl {
+    font-size: var(--font-size-4xl);
+}
+
+/* Font Weights */
+.font-normal {
+    font-weight: var(--font-weight-normal);
+}
+
+.font-medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.font-semibold {
+    font-weight: var(--font-weight-semibold);
+}
+
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+/* ==================== SHADCN/UI TEXT COLORS ==================== */
+/* Foreground - Primary text color */
+.ns-light .text-foreground {
+    color: #18181b;
+}
+
+.ns-dark .text-foreground {
+    color: #fafafa;
+}
+
+/* Muted Foreground - Secondary text */
+.ns-light .text-muted-foreground {
+    color: #71717a;
+}
+
+.ns-dark .text-muted-foreground {
+    color: #d4d4d8;
+}
+
+/* Primary - Brand color for text */
+.ns-light .text-primary {
+    color: #3b82f6;
+}
+
+.ns-dark .text-primary {
+    color: #60a5fa;
+}
+
+/* White text - for dark backgrounds */
+.ns-light .text-white {
+    color: #18181b;
+}
+
+.ns-dark .text-white {
+    color: #fafafa;
+}
+
+/* Secondary - Secondary brand color */
+.text-secondary {
+    color: var(--color-secondary);
+}
+
+/* Destructive - Error/danger text */
+.text-destructive {
+    color: var(--color-error);
+}
+
+/* ==================== SHADCN/UI BACKGROUND COLORS ==================== */
+/* Background - Main background */
+.ns-light .bg-background {
+    background-color: #fafafa;
+}
+
+.ns-dark .bg-background {
+    background-color: #1a1a1a;
+}
+
+/* Muted - Secondary background */
+.ns-light .bg-muted {
+    background-color: #f4f4f5;
+}
+
+.ns-dark .bg-muted {
+    background-color: #262626;
+}
+
+/* Card - Card background */
+.ns-light .bg-card {
+    background-color: #f4f4f5;
+}
+
+.ns-dark .bg-card {
+    background-color: #262626;
+}
+
+/* Primary */
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-primary-foreground {
+    color: var(--color-primary-content);
+}
+
+/* Secondary */
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+
+.text-secondary-foreground {
+    color: var(--color-secondary-content);
+}
+
+/* Destructive */
+.bg-destructive {
+    background-color: var(--color-error);
+}
+
+.text-destructive-foreground {
+    color: var(--color-error-content);
+}
+
+/* Accent */
+.bg-accent {
+    background-color: var(--color-accent);
+}
+
+.text-accent-foreground {
+    color: var(--color-accent-content);
+}
+
+/* ==================== SHADCN/UI BORDER ==================== */
+.border {
+    border-width: 1;
+    border-color: var(--color-border);
+}
+
+.border-input {
+    border-color: var(--color-border);
+}
+
+/* ==================== SHADCN/UI BUTTON VARIANTS ==================== */
+/* Default Button */
+.btn-default {
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+    border-radius: var(--radius-btn);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
+/* Primary Button (same as default) */
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+    border-radius: var(--radius-btn);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-secondary-content);
+    border-radius: var(--radius-btn);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
+/* Destructive Button */
+.btn-destructive {
+    background-color: var(--color-error);
+    color: var(--color-error-content);
+    border-radius: var(--radius-btn);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
+/* Ghost Button */
+.btn-ghost {
+    background-color: transparent;
+    color: var(--color-text-primary);
+    border-radius: var(--radius-btn);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
+/* Link Button */
+.btn-link {
+    background-color: transparent;
+    color: var(--color-primary);
+    border-radius: var(--radius-btn);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
+/* Outline Button */
+.btn-outline {
+    background-color: rgba(var(--primary-rgb), 0.08);
+    color: var(--color-primary);
+    border-width: 1;
+    border-color: rgba(var(--primary-rgb), 0.2);
+    border-radius: var(--radius-btn);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
+/* Button Sizes */
+.btn-sm {
+    font-size: var(--font-size-sm);
+    padding: 8 12 8 12;
+}
+
+.btn-md {
+    font-size: var(--font-size-base);
+    padding: 10 16 10 16;
+}
+
+.btn-lg {
+    font-size: var(--font-size-lg);
+    padding: 12 24 12 24;
+}
+
+/* ==================== SHADCN/UI BADGE VARIANTS ==================== */
+.badge {
+    padding: 4 10 4 10;
+    border-radius: var(--radius-badge);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+}
+
+.badge-default {
+    background-color: var(--color-base-200);
+    color: var(--color-text-secondary);
+}
+
+.badge-primary {
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+}
+
+.badge-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-secondary-content);
+}
+
+.badge-destructive {
+    background-color: var(--color-error);
+    color: var(--color-error-content);
+}
+
+.badge-success {
+    background-color: var(--color-success);
+    color: var(--color-success-content);
+}
+
+.badge-outline {
+    background-color: transparent;
+    color: var(--color-text-primary);
+    border-width: 1;
+    border-color: var(--color-border);
+}
+
+/* ==================== SHADCN/UI INPUT ==================== */
+.input {
+    background-color: var(--color-input);
+    color: var(--color-text-primary);
+    border-width: 1;
+    border-color: var(--color-border);
+    border-radius: var(--radius-input);
+    padding: 12 16 12 16;
+    font-size: var(--font-size-base);
+}
+
+.textarea {
+    background-color: var(--color-input);
+    color: var(--color-text-primary);
+    border-width: 1;
+    border-color: var(--color-border);
+    border-radius: var(--radius-input);
+    padding: 12 16 12 16;
+    font-size: var(--font-size-base);
+    min-height: 80;
+}
+
+/* ==================== SPACING UTILITIES ==================== */
+/* Padding */
+.p-0 {
+    padding: 0 0 0 0;
+}
+
+.p-1 {
+    padding: 4 4 4 4;
+}
+
+.p-2 {
+    padding: 8 8 8 8;
+}
+
+.p-3 {
+    padding: 12 12 12 12;
+}
+
+.p-4 {
+    padding: 16 16 16 16;
+}
+
+.p-6 {
+    padding: 24 24 24 24;
+}
+
+/* Margin Bottom (for vertical spacing) */
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1 {
+    margin-bottom: 4;
+}
+
+.mb-2 {
+    margin-bottom: 8;
+}
+
+.mb-3 {
+    margin-bottom: 12;
+}
+
+.mb-4 {
+    margin-bottom: 16;
+}
+
+.mb-6 {
+    margin-bottom: 24;
+}
+
+/* Margin Right (for horizontal spacing) */
+.mr-0 {
+    margin-right: 0;
+}
+
+.mr-1 {
+    margin-right: 4;
+}
+
+.mr-2 {
+    margin-right: 8;
+}
+
+.mr-3 {
+    margin-right: 12;
+}
+
+.mr-4 {
+    margin-right: 16;
+}
+
+/* ==================== BORDER RADIUS ==================== */
+.rounded-none {
+    border-radius: 0;
+}
+
+.rounded-sm {
+    border-radius: var(--radius-sm);
+}
+
+.rounded {
+    border-radius: var(--radius-base);
+}
+
+.rounded-md {
+    border-radius: var(--radius-md);
+}
+
+.rounded-lg {
+    border-radius: var(--radius-lg);
+}
+
+.rounded-xl {
+    border-radius: var(--radius-xl);
+}
+
+.rounded-full {
+    border-radius: var(--radius-full);
+}
+
+/* ==================== TEXT ALIGNMENT ==================== */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* ==================== RGBA COLORS WITH OPACITY ==================== */
+/* 替代Tailwind的bg-primary/10语法 */
+
+/* Primary色系 - 带透明度 */
+.bg-primary-subtle {
+    background-color: rgba(var(--primary-rgb), 0.1);
+}
+
+.bg-primary-light {
+    background-color: rgba(var(--primary-rgb), 0.2);
+}
+
+.bg-primary-soft {
+    background-color: rgba(var(--primary-rgb), 0.3);
+}
+
+/* Secondary色系 - 带透明度 */
+.bg-secondary-subtle {
+    background-color: rgba(var(--secondary-rgb), 0.1);
+}
+
+.bg-secondary-light {
+    background-color: rgba(var(--secondary-rgb), 0.2);
+}
+
+.bg-secondary-soft {
+    background-color: rgba(var(--secondary-rgb), 0.3);
+}
+
+/* Accent色系 - 带透明度 */
+.bg-accent-subtle {
+    background-color: rgba(var(--accent-rgb), 0.1);
+}
+
+.bg-accent-light {
+    background-color: rgba(var(--accent-rgb), 0.2);
+}
+
+.bg-accent-soft {
+    background-color: rgba(var(--accent-rgb), 0.3);
+}
+
+/* Success色系 - 带透明度 */
+.bg-success-subtle {
+    background-color: rgba(var(--success-rgb), 0.1);
+}
+
+.bg-success-light {
+    background-color: rgba(var(--success-rgb), 0.2);
+}
+
+.bg-success-soft {
+    background-color: rgba(var(--success-rgb), 0.3);
+}
+
+/* Error色系 - 带透明度 */
+.bg-error-subtle {
+    background-color: rgba(var(--error-rgb), 0.1);
+}
+
+.bg-error-light {
+    background-color: rgba(var(--error-rgb), 0.2);
+}
+
+.bg-error-soft {
+    background-color: rgba(var(--error-rgb), 0.3);
+}
+
+/* Warning色系 - 带透明度 */
+.bg-warning-subtle {
+    background-color: rgba(var(--warning-rgb), 0.1);
+}
+
+.bg-warning-light {
+    background-color: rgba(var(--warning-rgb), 0.2);
+}
+
+.bg-warning-soft {
+    background-color: rgba(var(--warning-rgb), 0.3);
+}
+
+/* Base-200色系 - 带透明度 */
+.bg-base-subtle {
+    background-color: rgba(var(--base-200-rgb), 0.5);
+}
+
+.bg-base-light {
+    background-color: rgba(var(--base-200-rgb), 0.7);
+}
+
+/* ==================== NATIVE APP ENHANCEMENTS ==================== */
+
+/* Additional Margin Top */
+.mt-2 {
+    margin-top: 8;
+}
+
+.mt-3 {
+    margin-top: 12;
+}
+
+.mt-4 {
+    margin-top: 16;
+}
+
+.mt-5 {
+    margin-top: 20;
+}
+
+.mt-6 {
+    margin-top: 24;
+}
+
+.mt-8 {
+    margin-top: 32;
+}
+
+/* Additional Margin Left */
+.ml-2 {
+    margin-left: 8;
+}
+
+.ml-4 {
+    margin-left: 16;
+}
+
+.ml-8 {
+    margin-left: 32;
+}
+
+.ml-16 {
+    margin-left: 64;
+}
+
+/* Additional Margin Bottom */
+.mb-5 {
+    margin-bottom: 20;
+}
+
+.mb-8 {
+    margin-bottom: 32;
+}
+
+/* Additional Padding */
+.p-5 {
+    padding: 20 20 20 20;
+}
+
+.p-8 {
+    padding: 32 32 32 32;
+}
+
+.px-4 {
+    padding-left: 16;
+    padding-right: 16;
+}
+
+.px-5 {
+    padding-left: 20;
+    padding-right: 20;
+}
+
+.py-3 {
+    padding-top: 12;
+    padding-bottom: 12;
+}
+
+.py-4 {
+    padding-top: 16;
+    padding-bottom: 16;
+}
+
+.py-5 {
+    padding-top: 20;
+    padding-bottom: 20;
+}
+
+/* ==================== NATIVE APP ICON COLORS ==================== */
+/* iOS-style system icon colors */
+.icon-gray {
+    color: #8E8E93;
+}
+
+.icon-orange {
+    color: #FF9500;
+}
+
+.icon-blue {
+    color: #007AFF;
+}
+
+.icon-purple {
+    color: #5856D6;
+}
+
+.icon-green {
+    color: #34C759;
+}
+
+.icon-red {
+    color: #FF3B30;
+}
+
+.icon-pink {
+    color: #FF2D55;
+}
+
+.icon-yellow {
+    color: #FFCC00;
+}
+
+.icon-teal {
+    color: #5AC8FA;
+}
+
+.icon-indigo {
+    color: #5856D6;
+}
+
+/* ==================== CARD ELEVATION STYLES ==================== */
+/* MOVED TO CARD STYLES SECTION */
+
+/* ==================== SECTION HEADERS ==================== */
+/* Native app style section headers */
+.ns-light .section-header {
+    font-size: 11;
+    color: #71717a;
+    font-weight: 600;
+    letter-spacing: 0.1;
+    text-transform: uppercase;
+}
+
+.ns-dark .section-header {
+    font-size: 11;
+    color: #d4d4d8;
+    font-weight: 600;
+    letter-spacing: 0.1;
+    text-transform: uppercase;
+}
+
+/* ==================== LIST ITEM STYLES ==================== */
+/* Native app style list items */
+.list-item {
+    padding: 18 20 18 20;
+    background-color: transparent;
+}
+
+.list-item-compact {
+    padding: 14 16 14 16;
+    background-color: transparent;
+}
+
+/* ==================== STATS DISPLAY ==================== */
+/* For profile stats and metrics */
+.stat-value {
+    font-size: 32;
+    font-weight: 800;
+    color: var(--color-primary);
+    line-height: 1.2;
+}
+
+.stat-label {
+    font-size: 13;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    margin-top: 2;
+}
+
+/* ==================== BUTTON PRESS STATE ==================== */
+/* Native button press feedback */
+.btn-pressed {
+    opacity: 0.6;
+}
+
+/* ==================== AVATAR STYLES ==================== */
+.avatar-sm {
+    width: 32;
+    height: 32;
+    border-radius: 16;
+}
+
+.avatar-md {
+    width: 48;
+    height: 48;
+    border-radius: 24;
+}
+
+.avatar-lg {
+    width: 64;
+    height: 64;
+    border-radius: 32;
+}
+
+.avatar-xl {
+    width: 96;
+    height: 96;
+    border-radius: 48;
+}
+
+/* ==================== SEPARATOR UTILITIES ==================== */
+.ns-light .separator {
+    background-color: #e4e4e7;
+    height: 1;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.ns-dark .separator {
+    background-color: #404040;
+    height: 1;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.ns-light .separator-vertical {
+    background-color: #e4e4e7;
+    width: 1;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.ns-dark .separator-vertical {
+    background-color: #404040;
+    width: 1;
+    height: 100%;
+    opacity: 0.6;
+}
+
+/* Enhanced separator for better visibility */
+.ns-light .separator-enhanced {
+    background-color: #e4e4e7;
+    height: 1;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.ns-dark .separator-enhanced {
+    background-color: #404040;
+    height: 1;
+    width: 100%;
+    opacity: 0.8;
+}
+
+/* ==================== THEME UTILITIES ==================== */
+/* Theme-based utility classes */
+.ns-light {
+    /* Light theme specific styles */
+}
+
+.ns-dark {
+    /* Dark theme specific styles */
+}
+
+/* ==================== THEME TEST STYLES ==================== */
+/* Test styles to verify theme switching */
+.theme-test-element {
+    transition: all 0.3s ease;
+    padding: 10;
+    border-radius: 8;
+}
+
+.ns-light .theme-test-element {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 2 solid #000000;
+}
+
+.ns-dark .theme-test-element {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    border: 2 solid #ffffff;
+}
+
+/* ==================== THEME UTILITIES ==================== */
+/* 这些样式将使用 CSS 变量，通过 .ns-light 和 .ns-dark 类来切换 */
+
+/* ==================== CARD STYLES ==================== */
+/* Base card style - 使用主题类选择器 */
+.ns-light .card {
+    background-color: #f4f4f5;
+    border-radius: 12;
+    overflow: hidden;
+}
+
+.ns-dark .card {
+    background-color: #262626;
+    border-radius: 12;
+    overflow: hidden;
+}
+
+/* Elevated card style */
+.ns-light .card-elevated {
+    background-color: #ffffff;
+    border-radius: 12;
+    overflow: hidden;
+}
+
+.ns-dark .card-elevated {
+    background-color: #262626;
+    border-radius: 12;
+    overflow: hidden;
+}
+
+/* Flat card style */
+.ns-light .card-flat {
+    background-color: #f4f4f5;
+    border-radius: 12;
+    overflow: hidden;
+}
+
+.ns-dark .card-flat {
+    background-color: #262626;
+    border-radius: 12;
+    overflow: hidden;
+}
+
+/* Card title style */
+.ns-light .card-title,
+.ns-dark .card-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    margin-bottom: 8;
+}
+
+/* Card content style */
+.ns-light .card-content,
+.ns-dark .card-content {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
+
+/* ==================== ELEVATION / SHADOW UTILITIES ==================== */
+/* Elevation classes for Android (androidElevation) and iOS (box-shadow) */
+
+/* Elevation 0 - No shadow */
+.elevation-0 {
+    androidElevation: 0;
+}
+
+/* iOS Shadow equivalents */
+.ios\:shadow-sm {
+    box-shadow: var(--shadow-sm);
+}
+
+.ios\:shadow {
+    box-shadow: var(--shadow-base);
+}
+
+.ios\:shadow-md {
+    box-shadow: var(--shadow-md);
+}
+
+.ios\:shadow-lg {
+    box-shadow: var(--shadow-lg);
+}
+
+.ios\:shadow-xl {
+    box-shadow: var(--shadow-xl);
+}
+
+.ios\:shadow-2xl {
+    box-shadow: var(--shadow-2xl);
+}
+
+/* Elevation 1 */
+.elevation-1 {
+    androidElevation: var(--elevation-1);
+}
+
+.ios\:shadow-1 {
+    box-shadow: var(--shadow-sm);
+}
+
+/* Elevation 2 */
+.elevation-2 {
+    androidElevation: var(--elevation-2);
+}
+
+.ios\:shadow-2 {
+    box-shadow: var(--shadow-base);
+}
+
+/* Elevation 3 */
+.elevation-3 {
+    androidElevation: var(--elevation-3);
+}
+
+.ios\:shadow-3 {
+    box-shadow: var(--shadow-md);
+}
+
+/* Elevation 4 */
+.elevation-4 {
+    androidElevation: var(--elevation-4);
+}
+
+.ios\:shadow-4 {
+    box-shadow: var(--shadow-lg);
+}
+
+/* Elevation 5 */
+.elevation-5 {
+    androidElevation: var(--elevation-5);
+}
+
+.ios\:shadow-5 {
+    box-shadow: var(--shadow-xl);
+}
+
+/* Elevation 8 - Higher elevation for special cases */
+.elevation-8 {
+    androidElevation: 20;
+}
+
+.ios\:shadow-8 {
+    box-shadow: var(--shadow-2xl);
+}
