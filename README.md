@@ -63,7 +63,7 @@ Examples in `src/components/showcase/`:
 ### 1. Clone the Template
 
 ```bash
-git clone <your-template-repo-url> my-awesome-app
+git clone https://github.com/ovenzeze/ns-vue-lsf-template.git my-awesome-app
 cd my-awesome-app
 ```
 
